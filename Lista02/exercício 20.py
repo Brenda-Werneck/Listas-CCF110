@@ -3,7 +3,7 @@
 #   Número da Bola	    Prêmio (% do valor do caixa)
 #           0	                    05
 #           1	                    25
-#           2                   	10
+#           2                       10
 #           3	                    07
 #           4	                    08
 #           5	                    05
