@@ -3,5 +3,5 @@
 arquivo1 = open("decrescente.txt", "w")
 
 for i in range(200, 49, -1):
-    arquivo1.write(str(i) + "\n")
+    arquivo1.write(i + "\n")
 arquivo1.close()
