@@ -1,12 +1,14 @@
-from random import randint
+import random
 
-qtdade = int(input("Qauntidade de pessoas: "))
-nomes, sobrenomes = [], []
-arquivo = open("nomeeidade.txt", "w")
+N = int(input())
+arquivo = open("teste", 'w')
+nomes = ["Angelo","Alek", "Tayner", "Everson", "Julio", "Igor", "Gabriel", "Gabriela", "Fernanda" ,"Arthur", "Samuel", "Brenda", "Ingred", "Silvania", "Lorena", "Yasmim", "Cleber", "Erika", "Patricia", "Silvio"]
+sobrenomes =["Cupertino", "Machado", "Silva", "Fernandes", "Bastos", "Werneck", "Pereira", "Ferreira", "Pires", "Reis", "Mafra","Barbosa", "Melo", "Viana", "Lima", "Pinto", "Marquezine", "Elias", "Grande", "Carvalho"]
 
-for i in range(qtdade):
-    nomes.append(input("Nome: "))
-    sobrenomes.append(input("Sobrenome: "))
-    arquivo.write(f"{nomes[i]} {sobrenomes[i]} {randint(10, 50)}" + ("\n" if i < qtdade - 1 else ""))
-
+for i in range(N):
+    nome = nomes[random.randint(0, 19)] + " " + sobrenomes[random.randint(0, 19)]
+    arquivo.write(nome)
+    arquivo.write("\n")
+    arquivo.write(str(random.randint(1, 35)))
+    arquivo.write("\n")
 arquivo.close()
