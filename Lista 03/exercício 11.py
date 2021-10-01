@@ -7,12 +7,12 @@
 
 prod = 1
 vetor = []
-vetor2 = []
 
 for i in range(20):
     n = int(input(f"Digite o {i + 1} º número: "))
     vetor.append(n)
 
 for i in range(20):
-    for j in range(n):
-        prod = 
+    for j in range(vetor[i]):
+        prod = (j + 1) * vetor[i]
+        print(f"Tabuada do {vetor[i]} x {(j + 1)} = {prod}")
