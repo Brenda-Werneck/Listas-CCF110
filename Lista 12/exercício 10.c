@@ -14,7 +14,7 @@ main()
     int vetor[n];
     soma = 0;
 
-    for (i=0; i<n; i++)
+    for (i = 0; i < n; i++)
     {
         printf("\nDigite um valor para o vetor: \n");
         scanf("%d", &vetor[i]);
