@@ -7,28 +7,17 @@
 
 main()
 {
-    int n, soma, i;
-    
-    printf("\nDigite o tamanho do seu vetor: \n");
-    scanf("%d", &n);
-    int vetor[n];
-    soma = 0;
-
-    for (i=0; i<n; i++)
+    int vetor1[10], vetor2[10];
+    for (int i = 0; i < 10; i++)
     {
-        printf("\nDigite um valor para o vetor: \n");
-        scanf("%d", &vetor[i]);
+        printf("Item nº %d:", i + 1);
+        scanf("%d", &vetor1[i]);
+        vetor2[9-i] = vetor1[i];
     }
-
-    for (i=0; i<n; i++)
+    for (int i = 0; i < 10; i++)
     {
-        if (i % 2 == 0)
-        {
-            soma += vetor[i];
-        }
+        printf("Vetor 2, elemento %d: %d\n", i + 1, vetor2[i]);
     }
-        
-    printf("\nSoma = %d", soma);
-
+    system("PAUSE");
     return 0;
 }
