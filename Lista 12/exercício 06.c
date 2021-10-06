@@ -12,7 +12,7 @@ main()
     soma = 0;
     cont = 1;
 
-    for (i=37; i>0; i--)
+    for (i = 37; i > 0; i--)
     {
         soma += i * (i + 1) / cont;
         cont += 1;
