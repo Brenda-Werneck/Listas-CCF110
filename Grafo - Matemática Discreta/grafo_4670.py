@@ -33,8 +33,6 @@ while x <= N*2:
                                 if matriz[aux3][l] in "1" and aux3 != l:
                                     cont += 1
                                     matriz[aux3][l] = "9"
-                                    matriz[l][aux3] = "9"
-                                    aux4 = l
-                                            
+                                    matriz[l][aux3] = "9"                               
     x += 1
 print(cont)
