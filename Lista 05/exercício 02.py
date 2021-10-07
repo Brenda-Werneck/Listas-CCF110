@@ -2,5 +2,5 @@
 #Saldo médio	        Percentual
 #De 0 a 500	        Nenhum crédito
 #De 501 a 1000	        30% do valor do saldo médio
-#De 1001 a 3000	    40% do valor do saldo médio
+#De 1001 a 3000	        40% do valor do saldo médio
 #Acima de 3001	        50% do valor do saldo médio
