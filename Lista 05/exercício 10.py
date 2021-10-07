@@ -1,0 +1,1 @@
+#Escreva um algoritmo que realize o produto de A (número real) por B (número inteiro), ou seja, A * B, através de adições (somas). Esses dois valores são passados pelo usuário através do teclado.
