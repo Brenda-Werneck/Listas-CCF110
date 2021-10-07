@@ -1,0 +1,3 @@
+#Implementar um algoritmo para calcular o sen(X). O valor de X deverá ser digitado em graus. O valor do seno de X será calculado pela soma dos 15 primeiros termos da série a seguir (Para que seja calculado corretamente, é necessário que se transforme o valor de X lido em graus para radianos):
+ 
+#sen(x) = x - (x^3)/3! + (x^5)/5! + (x^7)/7! + (x^9)/9! + (x^11)/11! + ...
