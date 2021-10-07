@@ -1,0 +1,1 @@
+#Criar um algoritmo que receba 10 números positivos e escreva a raiz quadrada de cada número. Para cada entrada de dados deverá haver um trecho de proteção para que um número negativo não seja aceito.
