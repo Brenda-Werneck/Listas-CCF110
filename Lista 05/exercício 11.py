@@ -1,0 +1,1 @@
+#Escreva um algoritmo que calcule o resto da divisão de A por B (número inteiros e positivos), ou seja, A mod B, através de subtrações sucessivas. Esses dois valores são passados pelo usuário através do teclado.
