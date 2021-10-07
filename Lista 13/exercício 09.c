@@ -1,0 +1,1 @@
+// Crie um algoritmo que receba um número inteiro. Escreva uma função que retorne se este valor é positivo ou negativo.
