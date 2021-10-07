@@ -1,0 +1,1 @@
+//Escreva um algoritmo que informe se um número é par ou ímpar. O algoritmo deve utilizar uma função que retorne 0 caso o número seja par e 1 caso o número seja ímpar.
