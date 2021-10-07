@@ -1,0 +1,1 @@
+#Criar um algoritmo que receba vários números inteiros e positivos e escreva a média dos números múltiplos de 3. A execução deve encerrar quando um número não positivo for lido.
