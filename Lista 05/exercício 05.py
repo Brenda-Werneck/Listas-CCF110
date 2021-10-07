@@ -1,0 +1,1 @@
+#Criar um algoritmo que leia um número (NUM) e então escreva os múltiplos de 3 e 5, ao mesmo tempo, no intervalo fechado de 1 a NUM.
