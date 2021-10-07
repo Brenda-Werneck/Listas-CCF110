@@ -1,0 +1,1 @@
+//Escreva um algoritmo que receba três números. Elabore uma função que retorne o menor número entre os digitados.
