@@ -38,7 +38,6 @@ void PRIMO(int n)
 int main()
 {
     int n;
-    n = 0;
     printf("\nDigite um número: ");
     scanf("%d", &n);
     PRIMO(n);
