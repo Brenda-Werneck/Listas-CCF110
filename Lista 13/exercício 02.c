@@ -4,24 +4,21 @@
 #include <math.h>
 #include <stdlib.h>
 
-double Delta(double a, double b, double c)
+int teste(int n)
 {
-    return (b * b) - 4 * a * c;
+    return n % 2;
 }
 
-void raizes(double a, double b, double c)
+void parouimpar(int n)
 {
-    double delta = Delta(a, b, c);
-    if (delta < 0)
+    int poi = teste(n);
+    if (poi == 0)
     {
-        printf("Delta negativo\n");
+        printf("0\n");
     }
     else
     {
-        double x1 = (-b + sqrt(delta)) / (2 * a);
-        double x2 = (-b - sqrt(delta)) / (2 * a);
-        printf("x1 = %lf\n", x1);
-        printf("x2 = %lf\n", x2);
+        printf("1\n");
     }
 }
 
@@ -29,13 +26,9 @@ int main()
 {
     double n;
     n = 0;
-    printf("\nDigite o valor de a: ");
-    scanf("%lf", &a);
-    printf("\nDigite o valor de b: ");
-    scanf("%lf", &b);
-    printf("\nDigite o valor de c: ");
-    scanf("%lf", &c);
-    raizes(a, b, c);
+    printf("\nDigite um número: ");
+    scanf("%lf", &n);
+    parouimpar(n);
 
     system("PAUSE");
     return 0;
