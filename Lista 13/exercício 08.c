@@ -18,7 +18,7 @@ int main()
 {
     double metro;
     printf("Digite os metros: ");
-    scanf("%lf", metro);
+    scanf("%lf", &metro);
     printf("\nPolegadas = %lf", polegadas(metro));
     printf("\nPés = %lf\n", pes(polegadas(metro)));
     system("PAUSE");
