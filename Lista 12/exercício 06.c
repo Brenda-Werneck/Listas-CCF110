@@ -17,7 +17,7 @@ main()
         soma += i * (i + 1) / cont;
         cont += 1;
     }
-        printf("\nSoma = %f\n", soma);
+    printf("\nSoma = %f\n", soma);
 
     return 0;
 }
