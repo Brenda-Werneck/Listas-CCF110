@@ -30,9 +30,6 @@ void raizes(double a, double b, double c)
 int main()
 {
     double a, b, c;
-    a = 0;
-    b = 0;
-    c = 0;
     printf("\nDigite o valor de a: ");
     scanf("%lf", &a);
     printf("\nDigite o valor de b: ");
