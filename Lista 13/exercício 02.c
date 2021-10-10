@@ -25,7 +25,6 @@ void parouimpar(int n)
 int main()
 {
     int n;
-    n = 0;
     printf("\nDigite um número: ");
     scanf("%d", &n);
     parouimpar(n);
