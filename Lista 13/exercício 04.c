@@ -22,7 +22,7 @@ int inversao(int n)
 
 int main()
 {
-    int n = 0;
+    int n;
     printf("Digite um número: ");
     scanf("%d", &n);
     printf("Número invertido = %d\n", inversao(n));
