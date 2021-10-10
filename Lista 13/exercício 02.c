@@ -24,10 +24,10 @@ void parouimpar(int n)
 
 int main()
 {
-    double n;
+    int n;
     n = 0;
     printf("\nDigite um número: ");
-    scanf("%lf", &n);
+    scanf("%d", &n);
     parouimpar(n);
 
     system("PAUSE");
