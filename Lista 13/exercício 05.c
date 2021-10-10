@@ -50,11 +50,11 @@ int main()
         scanf("%lf", &c);
         if (tempdesejada == 2)
         {
-            printf("%.2lf K", CK(c));
+            printf("%.2lf K\n", CK(c));
         }
         if (tempdesejada == 3)
         {
-            printf("%.2lf F", CF(c));
+            printf("%.2lf F\n", CF(c));
         }
     }
     if (temp == 2)
@@ -63,11 +63,11 @@ int main()
         scanf("%lf", &k);
         if (tempdesejada == 1)
         {
-            printf("%.2lf ºC", KC(k));
+            printf("%.2lf ºC\n", KC(k));
         }
         if (tempdesejada == 3)
         {
-            printf("%.2lf F", KF(k));
+            printf("%.2lf F\n", KF(k));
         }
     }
     if (temp == 3)
@@ -76,11 +76,11 @@ int main()
         scanf("%lf", &f);
         if (tempdesejada == 1)
         {
-            printf("%.2lf ºC", FC(f));
+            printf("%.2lf ºC\n", FC(f));
         }
         if (tempdesejada == 2)
         {
-            printf("%.2lf K", FK(f));
+            printf("%.2lf K\n", FK(f));
         }
     }
 
