@@ -38,49 +38,49 @@ double KC(double k)
 int main()
 {
     double c, f, k;
-    char temp, tempdesejada;
+    int temp, tempdesejada;
 
-    printf("Digite qual a medida temperatura que está usando (C, K ou F): ");
-    scanf("%c", &temp);
-    printf("Digite qual a medida temperatura que deseja converter (C, K ou F): ");
-    scanf("%c", &tempdesejada);
-    if (temp == "C")
+    printf("Digite qual a medida de temperatura que está usando (1 - C, 2 - K ou 3 - F): ");
+    scanf("%d", &temp);
+    printf("Digite qual a medida de temperatura que deseja converter (1 - C, 2 - K ou 3 - F): ");
+    scanf("%d", &tempdesejada);
+    if (temp == 1)
     {
         printf("Digite a temperatrura em ºC: ");
         scanf("%lf", &c);
-        if (tempdesejada == "K")
+        if (tempdesejada == 2)
         {
-            printf("%2lf K", CK(c));
+            printf("%.2lf K", CK(c));
         }
-        if (tempdesejada == "F")
+        if (tempdesejada == 3)
         {
-            printf("%2lf F", CF(c));
+            printf("%.2lf F", CF(c));
         }
     }
-    if (temp == "K")
+    if (temp == 2)
     {
         printf("Digite a temperatrura em Kelvin: ");
         scanf("%lf", &k);
-        if (tempdesejada == "C")
+        if (tempdesejada == 1)
         {
-            printf("%2lf ºC", KC(k));
+            printf("%.2lf ºC", KC(k));
         }
-        if (tempdesejada == "F")
+        if (tempdesejada == 3)
         {
-            printf("%2lf F", KF(k));
+            printf("%.2lf F", KF(k));
         }
     }
-    if (temp == "F")
+    if (temp == 3)
     {
         printf("Digite a temperatrura em Fahrenheit: ");
         scanf("%lf", &f);
-        if (tempdesejada == "C")
+        if (tempdesejada == 1)
         {
-            printf("%2lf ºC", FC(f));
+            printf("%.2lf ºC", FC(f));
         }
-        if (tempdesejada == "K")
+        if (tempdesejada == 2)
         {
-            printf("%2lf K", FK(f));
+            printf("%.2lf K", FK(f));
         }
     }
 
