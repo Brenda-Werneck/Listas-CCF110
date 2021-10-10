@@ -4,22 +4,29 @@
 //Número invertido: 451
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int inver(int n)
+int inversao(int n)
 {
-    int u, d, c, mun;
-    u = (n % 100) % 10;
-    d = (n % 100) / 10;
-    c = (n - n % 100) / 100;
-    mun = u * 100+ d * 10 + c;
-    return(mun);
+    int rev, resto;
+    rev = 0;
+
+    while (n!= 0)
+    {
+        resto = n % 10;
+        rev = rev * 10 + resto;
+        n /= 10;
+    }
+    return rev;
 }
+
 int main()
 {
-    int num,res;
-    printf("Digite um numero: ");
-    scanf("%d", &num);
-    printf("Numero digitado: %d\n", num);
-    printf("Numero invertido: %d\n", inver(num));
-    return(0);
+    int n = 0;
+    printf("Digite um número: ");
+    scanf("%d", &n);
+    printf("Número invertido = %d\n", inversao(n));
+
+    system("PAUSE");
+    return 0;
 }
