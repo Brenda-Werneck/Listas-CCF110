@@ -6,7 +6,7 @@
 
 double Media(double n1, double n2, double n3, double n4, double n5)
 {
-    return (n1 + n2 + n3) / 3;
+    return (n1 + n2 + n3 + n4 + n5) / 5;
 }
 
 int main()
