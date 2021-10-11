@@ -27,7 +27,14 @@ int main()
     int n;
     printf("\nDigite um número: ");
     scanf("%d", &n);
-    parouimpar(n);
+    if (teste(n) == 1)
+    {
+        printf("%d é ímpar", n);
+    }
+    else if(teste(n) == 0)
+    {
+        printf("%d é par", n);
+    }
 
     system("PAUSE");
     return 0;
