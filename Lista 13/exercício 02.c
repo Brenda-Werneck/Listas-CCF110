@@ -29,11 +29,11 @@ int main()
     scanf("%d", &n);
     if (teste(n) == 1)
     {
-        printf("%d é ímpar", n);
+        printf("%d é ímpar\n", n);
     }
     else if(teste(n) == 0)
     {
-        printf("%d é par", n);
+        printf("%d é par\n", n);
     }
 
     system("PAUSE");
