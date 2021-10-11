@@ -5,7 +5,7 @@
 
 int soma(int vetor[15])
 {
-    int soma, i, j;
+    int soma, i;
     soma = 0;
     for (i = 0; i < 15; i++)
     {
@@ -16,7 +16,7 @@ int soma(int vetor[15])
 
 int main()
 {
-    int vetor[15], i, j;
+    int vetor[15], i;
     for (i = 0; i < 15; i++)
     {
         printf("\nDigite o %dº número: ", i + 1);
