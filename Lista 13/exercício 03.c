@@ -4,19 +4,13 @@
 #include <math.h>
 #include <stdlib.h>
 
-int teste(int n)
+int PRIMO(int n)
 {
-    return n;
-}
-
-void PRIMO(int n)
-{
-    int i, cont;
-    int primo = teste(n);
+    int i, cont, zoum;;
     cont = 0;
-    for (i = 2; i < primo; i++)
+    for (i = 2; i < n; i++)
     {
-        if (primo % i == 0)
+        if (n % i == 0)
         {
             cont += 1;
         }
@@ -27,11 +21,13 @@ void PRIMO(int n)
     }
     if (cont != 0)
     {
-        printf("0\n");
+        zoum = 0;
+        return zoum;
     }
-    else
+    else if (cont == 0)
     {
-        printf("1\n");
+        zoum = 1;
+        return zoum;
     }
 }
 
@@ -40,11 +36,12 @@ int main()
     int n;
     printf("\nDigite um número: ");
     scanf("%d", &n);
-    if (teste(n) == 1)
+    PRIMO(n);
+    if (PRIMO(n) != 0)
     {
         printf("%d é primo\n", n);
     }
-    else if(teste(n) == 0)
+    else if(PRIMO(n) == 0)
     {
         printf("%d não é primo\n", n);
     }
