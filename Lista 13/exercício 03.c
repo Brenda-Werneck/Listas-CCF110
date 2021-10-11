@@ -40,7 +40,15 @@ int main()
     int n;
     printf("\nDigite um número: ");
     scanf("%d", &n);
-    PRIMO(n);
+    if (teste(n) == 1)
+    {
+        printf("%d é primo\n", n);
+    }
+    else if(teste(n) == 0)
+    {
+        printf("%d não é primo\n", n);
+    }
+
 
     system("PAUSE");
     return 0;
