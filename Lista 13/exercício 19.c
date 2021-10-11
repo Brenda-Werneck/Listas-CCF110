@@ -23,4 +23,7 @@ int main()
         scanf("%d", &vetor[i]);
     }
     printf("Soma = %d", soma(vetor));
+    
+    system("PAUSE");
+    return 0;
 }
