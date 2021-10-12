@@ -22,7 +22,7 @@ int main()
         printf("\nDigite o %dº número: ", i + 1);
         scanf("%d", &vetor[i]);
     }
-    printf("Soma = %d", soma(vetor));
+    printf("Soma = %d\n", soma(vetor));
     
     system("PAUSE");
     return 0;
