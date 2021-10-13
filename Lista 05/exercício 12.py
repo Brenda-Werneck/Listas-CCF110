@@ -17,4 +17,3 @@ for i in range(1, 30, 2):
     elif i == 1 or i == 5 or i == 9 or i == 13 or i == 17 or i == 21 or i == 25 or i == 29:
         senx += ((xrad ** i)/divisor)
 print(f"Seno de {x}º = {senx}")
-
