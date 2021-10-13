@@ -1,6 +1,6 @@
 #Um cinema possui capacidade de 100 lugares e está sempre com ocupação total. Certo dia, cada espectador respondeu a um questionário, no qual constava:
-#	idade;
-#	opinião em relação ao filme, segundo as seguintes notas:
+#idade;
+#opinião em relação ao filme, segundo as seguintes notas:
 #Nota	        Significado
 #A	        Ótimo
 #B	        Bom
