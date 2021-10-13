@@ -2,6 +2,7 @@
 #	1, 2, 3 e 4 = voto para os respectivos candidatos;
 #	5 voto nulo;
 #	6 voto em branco;
+
 #Elaborar um algoritmo que calcule e escreva:
 #	O total de votos para cada candidato;
 #	O total de votos nulos;
