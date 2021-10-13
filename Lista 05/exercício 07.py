@@ -12,4 +12,3 @@ while True:
         cont += 1
     media = soma / cont
 print(media)
-    
