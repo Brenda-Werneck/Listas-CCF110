@@ -6,4 +6,3 @@ if valorprest <= 0.3 * salbruto:
     print("Empréstimo pode ser concedido")
 if valorprest > 0.3 * salbruto:
     print("Empréstimo não pode ser concedido")
-    
