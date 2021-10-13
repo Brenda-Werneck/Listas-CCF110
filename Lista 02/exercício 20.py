@@ -1,16 +1,16 @@
 #Numa festinha de fim de curso, foi feito um sorteio para distribuir o dinheiro restante em caixa. Dez pessoas foram sorteadas com direito a tentar a sorte mais uma vez, da seguinte forma: Deveriam apanhar uma bola numerada de 0 a 9 e conforme o algarismo sorteado o prêmio seria:
 
 #   Número da Bola	    Prêmio (% do valor do caixa)
-#           0	                    05
-#           1	                    25
-#           2                       10
-#           3	                    07
-#           4	                    08
-#           5	                    05
-#           6	                    15
-#           7	                    12
-#           8	                    03
-#           9	                    10
+#         0	                        05
+#         1	                        25
+#         2                         10
+#         3	                        07
+#         4	                        08
+#         5	                        05
+#         6	                        15
+#         7	                        12
+#         8	                        03
+#         9	                        10
 
 #Faça um algoritmo que leia o número da bola sorteada e o valor do dinheiro restante em caixa. Em seguida, o algoritmo deve calcular o prêmio recebido individualmente pela pessoa.
 
