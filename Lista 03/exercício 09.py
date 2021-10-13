@@ -11,5 +11,3 @@ while n != -1:
         cont += 1
 media = soma / cont
 print(f"Média = {media}")
-
-
