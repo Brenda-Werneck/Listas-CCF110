@@ -8,4 +8,3 @@ if A - B < 0:
     print(f"{A} é menor que {B}")
 if A - B == 0:
     print(f"{A} é igual a {B}")
-    
