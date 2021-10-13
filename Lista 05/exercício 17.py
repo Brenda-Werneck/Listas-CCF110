@@ -3,6 +3,7 @@
 #	Data do pedido (dia, mês, ano);
 #	Preço unitário;
 #	Quantidade.
+
 #O algoritmo deverá processar novos pedidos até que o usuário digite (zero) como número de pedido.
 
 total = 0
