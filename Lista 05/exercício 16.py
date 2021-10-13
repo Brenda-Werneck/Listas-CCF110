@@ -2,6 +2,7 @@
 #	O atleta do sexo masculino mais alto;
 #	A atleta do sexo feminino mais pesada;
 #	A média de idade dos atletas.
+
 #Deverão ser lidos dados dos atletas até que seja digitado o nome @ para um atleta.
 
 maiorAlt = 0
