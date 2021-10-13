@@ -1,5 +1,5 @@
 #Escreva um algoritmo que leia um peso na Terra e o número de um planeta e escreva o valor do seu peso neste planeta. A relação de planetas é dada a seguir juntamente com o valor das gravidades relativas à Terra:
-##          Gravidade Relativa	Planeta
+##          Gravidade Relativa  Planeta
 #1	         0,37               Mercúrio
 #2	         0,88	            Vênus
 #3	         0,38	            Marte
