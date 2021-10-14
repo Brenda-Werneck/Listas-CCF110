@@ -1,7 +1,7 @@
 #Fazer algoritmo que:
-#a.	Leia o valor inteiro de n (n ≤ 1000) e os n valores de vetor de valores numéricos;
-#b.	Ordenar o vetor e escrevê-lo ordenado.
-#c.	Determine e escreva, para cada número que se repete no conjunto, a quantidade de vezes em que ele aparece repetido;
+#   a.	Leia o valor inteiro de n (n ≤ 1000) e os n valores de vetor de valores numéricos;
+#   b.	Ordenar o vetor e escrevê-lo ordenado.
+#   c.	Determine e escreva, para cada número que se repete no conjunto, a quantidade de vezes em que ele aparece repetido;
 
 n = int(input("Digite um valor: "))
 if n <= 1000:
