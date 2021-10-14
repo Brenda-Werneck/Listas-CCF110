@@ -1,9 +1,9 @@
 #Fazer um algoritmo que:
-#a.	Leia um vetor A com 30 valores numéricos distintos;
-#b.	Leia outro vetor B com 30 valores numéricos;
-#c.	Leia o valor de uma variável X;
-#d.	Verifique qual o elemento de A que é igual a X;
-#e.	Escreva o elemento de B de posição correspondente à do elemento de A igual a X.
+#   a.	Leia um vetor A com 30 valores numéricos distintos;
+#   b.	Leia outro vetor B com 30 valores numéricos;
+#   c.	Leia o valor de uma variável X;
+#   d.	Verifique qual o elemento de A que é igual a X;
+#   e.	Escreva o elemento de B de posição correspondente à do elemento de A igual a X.
 
 A = []
 B = []
