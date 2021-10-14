@@ -15,4 +15,3 @@ for i, v in enumerate(qtd):
         faturamento += faturamento + (qtd[i] * preco[l])
 
 print(f"Faturamento mensal: R${faturamento:.2f}")
-
