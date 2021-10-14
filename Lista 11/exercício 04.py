@@ -9,4 +9,3 @@ for texto in velho:
 
 velho.close()
 novo.close()
-
