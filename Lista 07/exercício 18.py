@@ -16,4 +16,3 @@ for x in range(10):
                 break
 for x in range(10):
     print(f"{x + 1}ª posição corredor {corredor[x] + 1}: tempo = {tempo[x]}")
-
