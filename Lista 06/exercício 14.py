@@ -1,6 +1,7 @@
 #Crie um algoritmo para um lava jato o qual tem-se as seguintes entrada de dados:
 #	Número identificador (id);
 #	Valor a pagar.
+
 #Armazene esses dados em vetores distintos e em seguida mostre a lista de dados do lava jato. O programa deve ser encerrado quando se digita um número negativo para o id do cliente. Ao fim, deve ser apresentado o valor total do caixa.
 
 id = []
