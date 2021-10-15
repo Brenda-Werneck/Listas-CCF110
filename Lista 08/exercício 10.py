@@ -14,4 +14,3 @@ for i in range(4):
     for j in range(4):
         soma += A[i][j] + B[i][j]
 print(f"Soma = {soma}")
-
