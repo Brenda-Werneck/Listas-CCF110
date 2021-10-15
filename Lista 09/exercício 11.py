@@ -5,4 +5,3 @@ M270 = [[M[j][2 - i] for j in range(3)] for i in range(3)]
 print("Matriz após girar 180ª")
 for i in range(3):
     print(M270[i])
-
